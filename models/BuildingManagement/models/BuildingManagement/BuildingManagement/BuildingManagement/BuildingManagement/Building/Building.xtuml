@@ -1,0 +1,91 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("762bed75-d940-4a45-bd06-181634414d8d",
+	'Building',
+	1,
+	'B',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("221962e2-fef6-4e04-ae4e-42be8cf54889",
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_BATTR
+	VALUES ("221962e2-fef6-4e04-ae4e-42be8cf54889",
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_ATTR
+	VALUES ("221962e2-fef6-4e04-ae4e-42be8cf54889",
+	"762bed75-d940-4a45-bd06-181634414d8d",
+	"00000000-0000-0000-0000-000000000000",
+	'BuildingId',
+	'',
+	'',
+	'BuildingId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("5fb46014-860e-43e2-b1f7-af57fa23dbce",
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_BATTR
+	VALUES ("5fb46014-860e-43e2-b1f7-af57fa23dbce",
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_ATTR
+	VALUES ("5fb46014-860e-43e2-b1f7-af57fa23dbce",
+	"762bed75-d940-4a45-bd06-181634414d8d",
+	"221962e2-fef6-4e04-ae4e-42be8cf54889",
+	'Name',
+	'',
+	'',
+	'Name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("49e1e7be-8d2e-4636-96c2-eb7acf603c09",
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_BATTR
+	VALUES ("49e1e7be-8d2e-4636-96c2-eb7acf603c09",
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_ATTR
+	VALUES ("49e1e7be-8d2e-4636-96c2-eb7acf603c09",
+	"762bed75-d940-4a45-bd06-181634414d8d",
+	"5fb46014-860e-43e2-b1f7-af57fa23dbce",
+	'Address',
+	'',
+	'',
+	'Address',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_OIDA
+	VALUES ("221962e2-fef6-4e04-ae4e-42be8cf54889",
+	"762bed75-d940-4a45-bd06-181634414d8d",
+	0,
+	'BuildingId');
+INSERT INTO O_ID
+	VALUES (1,
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO O_ID
+	VALUES (2,
+	"762bed75-d940-4a45-bd06-181634414d8d");
+INSERT INTO PE_PE
+	VALUES ("762bed75-d940-4a45-bd06-181634414d8d",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

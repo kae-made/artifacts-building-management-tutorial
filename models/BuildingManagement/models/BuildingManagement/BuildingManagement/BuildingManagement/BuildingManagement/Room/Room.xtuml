@@ -1,0 +1,177 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("aef649fe-b050-4a60-accc-2766afe55c37",
+	'Room',
+	3,
+	'R',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_BATTR
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_ATTR
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	"00000000-0000-0000-0000-000000000000",
+	'RoomId',
+	'',
+	'',
+	'RoomId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("aef649fe-b050-4a60-accc-2766afe55c37",
+	"d25b7c7a-31b6-49d4-8b2f-296dd6890580",
+	0,
+	"b7958011-1e81-4c11-97a2-57a9c6e0113f",
+	"7c904e49-79d0-4e0b-8153-dc1b39ce65eb",
+	"accaed6c-e9c7-4213-ace5-224cb1a31f6b",
+	"5522789f-0450-4b30-bb6d-d3f92dc84add",
+	"275b2275-db15-4a1c-aa65-db5302de1193",
+	"751e54c8-89bf-4db1-9512-2e1581f5d622",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Floor',
+	'FloorId',
+	'R2');
+INSERT INTO R_RGO_PROXY
+	VALUES ("aef649fe-b050-4a60-accc-2766afe55c37",
+	"7c904e49-79d0-4e0b-8153-dc1b39ce65eb",
+	"accaed6c-e9c7-4213-ace5-224cb1a31f6b",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("b7958011-1e81-4c11-97a2-57a9c6e0113f",
+	"d25b7c7a-31b6-49d4-8b2f-296dd6890580",
+	0,
+	"7c904e49-79d0-4e0b-8153-dc1b39ce65eb",
+	"5522789f-0450-4b30-bb6d-d3f92dc84add",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("275b2275-db15-4a1c-aa65-db5302de1193",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	"b7958011-1e81-4c11-97a2-57a9c6e0113f",
+	"d25b7c7a-31b6-49d4-8b2f-296dd6890580",
+	1,
+	'FloorId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("b7958011-1e81-4c11-97a2-57a9c6e0113f",
+	"d25b7c7a-31b6-49d4-8b2f-296dd6890580",
+	'../Floor/Floor.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("275b2275-db15-4a1c-aa65-db5302de1193",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	"b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	'FloorId',
+	'',
+	'',
+	'FloorId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("cebe5ada-deb2-4b86-9872-f6770f122dee",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_BATTR
+	VALUES ("cebe5ada-deb2-4b86-9872-f6770f122dee",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_ATTR
+	VALUES ("cebe5ada-deb2-4b86-9872-f6770f122dee",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	"275b2275-db15-4a1c-aa65-db5302de1193",
+	'RoomName',
+	'',
+	'',
+	'RoomName',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("60a2cc17-ac4a-4bdd-ba03-2c16e5c89035",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_BATTR
+	VALUES ("60a2cc17-ac4a-4bdd-ba03-2c16e5c89035",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_ATTR
+	VALUES ("60a2cc17-ac4a-4bdd-ba03-2c16e5c89035",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	"cebe5ada-deb2-4b86-9872-f6770f122dee",
+	'CurrentEnvironment',
+	'',
+	'',
+	'CurrentEnvironment',
+	0,
+	"5a02e469-7ca6-4311-81ea-4985cdaa6f3e",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("5a02e469-7ca6-4311-81ea-4985cdaa6f3e",
+	"00000000-0000-0000-0000-000000000000",
+	'EnvironmentPhysicalQuantities',
+	'',
+	'',
+	'../BuildingManagement.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("7ab0b933-ea99-452c-af35-c7dfdbc38259",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_BATTR
+	VALUES ("7ab0b933-ea99-452c-af35-c7dfdbc38259",
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_ATTR
+	VALUES ("7ab0b933-ea99-452c-af35-c7dfdbc38259",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	"60a2cc17-ac4a-4bdd-ba03-2c16e5c89035",
+	'PreferredEnvironment',
+	'',
+	'',
+	'PreferredEnvironment',
+	0,
+	"5a02e469-7ca6-4311-81ea-4985cdaa6f3e",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_OIDA
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	0,
+	'RoomId');
+INSERT INTO O_ID
+	VALUES (1,
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO O_OIDA
+	VALUES ("275b2275-db15-4a1c-aa65-db5302de1193",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	1,
+	'FloorId');
+INSERT INTO O_OIDA
+	VALUES ("cebe5ada-deb2-4b86-9872-f6770f122dee",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	1,
+	'RoomName');
+INSERT INTO O_ID
+	VALUES (2,
+	"aef649fe-b050-4a60-accc-2766afe55c37");
+INSERT INTO PE_PE
+	VALUES ("aef649fe-b050-4a60-accc-2766afe55c37",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

@@ -1,0 +1,231 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	'Measuring Instruments',
+	4,
+	'MI',
+	'@iotpnp
+',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("af269e7c-98c5-4d3b-9cff-3c34328e70f4",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	'Start',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	1);
+INSERT INTO O_TFR
+	VALUES ("b763a6f5-4084-400f-b3bb-87177b576313",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	'Stop',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"af269e7c-98c5-4d3b-9cff-3c34328e70f4",
+	0,
+	2);
+INSERT INTO O_NBATTR
+	VALUES ("4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_BATTR
+	VALUES ("4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_ATTR
+	VALUES ("4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"00000000-0000-0000-0000-000000000000",
+	'MeasuringInstId',
+	'@iotpnp(deviceid,exclude)',
+	'',
+	'MeasuringInstId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	0,
+	"b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"8c24401b-4c11-47ce-91c7-ee9ae83c5192",
+	"5c1f9501-4916-4166-a30a-84b56a9d2a14",
+	"e7e280a0-c220-4aa9-9955-1fc07735af96",
+	"7d7de3f7-2862-4241-bf30-e67b63590b60",
+	"c8f0575f-3ecd-4bdc-8110-ba155ef97614",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Room',
+	'RoomId',
+	'R3.''measuaring''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"8c24401b-4c11-47ce-91c7-ee9ae83c5192",
+	"5c1f9501-4916-4166-a30a-84b56a9d2a14",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	0,
+	"8c24401b-4c11-47ce-91c7-ee9ae83c5192",
+	"e7e280a0-c220-4aa9-9955-1fc07735af96",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("7d7de3f7-2862-4241-bf30-e67b63590b60",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	1,
+	'RoomId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	'../Room/Room.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("7d7de3f7-2862-4241-bf30-e67b63590b60",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	'TargetRoomId',
+	'@iotpnp(exclude)',
+	'Target',
+	'RoomId',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("b8a32aaf-0a91-4495-a1c9-e37eb3efab31",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_BATTR
+	VALUES ("b8a32aaf-0a91-4495-a1c9-e37eb3efab31",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_ATTR
+	VALUES ("b8a32aaf-0a91-4495-a1c9-e37eb3efab31",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"7d7de3f7-2862-4241-bf30-e67b63590b60",
+	'ModelName',
+	'@iotpnp(exclude)',
+	'',
+	'ModelName',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("fb6b2273-b6f5-4369-a0ac-6ba00fd2060c",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_BATTR
+	VALUES ("fb6b2273-b6f5-4369-a0ac-6ba00fd2060c",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_ATTR
+	VALUES ("fb6b2273-b6f5-4369-a0ac-6ba00fd2060c",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"b8a32aaf-0a91-4495-a1c9-e37eb3efab31",
+	'Environment',
+	'@iotpnp(telemetry)
+',
+	'',
+	'Environment',
+	0,
+	"5a02e469-7ca6-4311-81ea-4985cdaa6f3e",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("5a02e469-7ca6-4311-81ea-4985cdaa6f3e",
+	"00000000-0000-0000-0000-000000000000",
+	'EnvironmentPhysicalQuantities',
+	'',
+	'',
+	'../BuildingManagement.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("ab78d8a7-dc5a-4be8-ba57-faf325c9cb8c",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_BATTR
+	VALUES ("ab78d8a7-dc5a-4be8-ba57-faf325c9cb8c",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_ATTR
+	VALUES ("ab78d8a7-dc5a-4be8-ba57-faf325c9cb8c",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"fb6b2273-b6f5-4369-a0ac-6ba00fd2060c",
+	'RequestInterval',
+	'',
+	'',
+	'RequestInterval',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("eebb58fe-9ba1-4e8c-87f4-4dd15de54375",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_BATTR
+	VALUES ("eebb58fe-9ba1-4e8c-87f4-4dd15de54375",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_ATTR
+	VALUES ("eebb58fe-9ba1-4e8c-87f4-4dd15de54375",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"ab78d8a7-dc5a-4be8-ba57-faf325c9cb8c",
+	'CurrentInterval',
+	'@iotpnp(readonly)',
+	'',
+	'CurrentInterval',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("a92346cc-8039-4303-a020-114c9aedb253",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_BATTR
+	VALUES ("a92346cc-8039-4303-a020-114c9aedb253",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_ATTR
+	VALUES ("a92346cc-8039-4303-a020-114c9aedb253",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	"eebb58fe-9ba1-4e8c-87f4-4dd15de54375",
+	'DeviceStatus',
+	'@iotpnp(readonly)',
+	'',
+	'DeviceStatus',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_OIDA
+	VALUES ("4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	0,
+	'MeasuringInstId');
+INSERT INTO O_ID
+	VALUES (1,
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO O_ID
+	VALUES (2,
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8");
+INSERT INTO PE_PE
+	VALUES ("0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

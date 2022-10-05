@@ -1,0 +1,96 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("52b4abf1-c366-4165-911d-2e4c9830098f",
+	'Customer',
+	10,
+	'CS',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_BATTR
+	VALUES ("e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_ATTR
+	VALUES ("e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	"00000000-0000-0000-0000-000000000000",
+	'CustomerId',
+	'',
+	'',
+	'CustomerId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("cc82a4af-2f05-42ea-a05a-0d8b73f5030b",
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_BATTR
+	VALUES ("cc82a4af-2f05-42ea-a05a-0d8b73f5030b",
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_ATTR
+	VALUES ("cc82a4af-2f05-42ea-a05a-0d8b73f5030b",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	"e111ef4a-7f81-4e5d-94f9-f350338af274",
+	'CustomerCode',
+	'',
+	'',
+	'CustomerCode',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("0a62dff3-6c90-4fb3-86c9-51b1af5415d4",
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_BATTR
+	VALUES ("0a62dff3-6c90-4fb3-86c9-51b1af5415d4",
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_ATTR
+	VALUES ("0a62dff3-6c90-4fb3-86c9-51b1af5415d4",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	"cc82a4af-2f05-42ea-a05a-0d8b73f5030b",
+	'Name',
+	'',
+	'',
+	'Name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_OIDA
+	VALUES ("e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	0,
+	'CustomerId');
+INSERT INTO O_ID
+	VALUES (1,
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO O_OIDA
+	VALUES ("cc82a4af-2f05-42ea-a05a-0d8b73f5030b",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	1,
+	'CustomerCode');
+INSERT INTO O_ID
+	VALUES (2,
+	"52b4abf1-c366-4165-911d-2e4c9830098f");
+INSERT INTO PE_PE
+	VALUES ("52b4abf1-c366-4165-911d-2e4c9830098f",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

@@ -1,0 +1,139 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("0670279a-47e7-4568-b214-4b309597b0ea",
+	'Workload Assignment',
+	9,
+	'WA',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_REF
+	VALUES ("0670279a-47e7-4568-b214-4b309597b0ea",
+	"83671cfc-0289-46c9-bbab-40532d71db4a",
+	0,
+	"71fce531-fef6-433d-ac5b-26bd00fbcffc",
+	"494bb5b5-ca39-4324-9301-6dfd62223258",
+	"a7ac2ce9-a1fb-4e49-82b1-8e38dcdee01f",
+	"8ad61258-593a-4d32-ad85-42ce34ab6f7d",
+	"9e3a0731-09af-4daf-b54e-a1f42de77728",
+	"eb51a815-77f1-4b56-8034-29fdc6ff52d2",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Workload',
+	'WorkloadId',
+	'R7.''contract''');
+INSERT INTO R_RGO_PROXY
+	VALUES ("0670279a-47e7-4568-b214-4b309597b0ea",
+	"494bb5b5-ca39-4324-9301-6dfd62223258",
+	"a7ac2ce9-a1fb-4e49-82b1-8e38dcdee01f",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("71fce531-fef6-433d-ac5b-26bd00fbcffc",
+	"83671cfc-0289-46c9-bbab-40532d71db4a",
+	0,
+	"494bb5b5-ca39-4324-9301-6dfd62223258",
+	"8ad61258-593a-4d32-ad85-42ce34ab6f7d",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("9e3a0731-09af-4daf-b54e-a1f42de77728",
+	"0670279a-47e7-4568-b214-4b309597b0ea",
+	"71fce531-fef6-433d-ac5b-26bd00fbcffc",
+	"83671cfc-0289-46c9-bbab-40532d71db4a",
+	1,
+	'WorkloadId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("71fce531-fef6-433d-ac5b-26bd00fbcffc",
+	"83671cfc-0289-46c9-bbab-40532d71db4a",
+	'../Workload/Workload.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("9e3a0731-09af-4daf-b54e-a1f42de77728",
+	"0670279a-47e7-4568-b214-4b309597b0ea",
+	"00000000-0000-0000-0000-000000000000",
+	'WorkloadId',
+	'',
+	'',
+	'WorkloadId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("0670279a-47e7-4568-b214-4b309597b0ea",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c",
+	0,
+	"9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"494bb5b5-ca39-4324-9301-6dfd62223258",
+	"a7ac2ce9-a1fb-4e49-82b1-8e38dcdee01f",
+	"4cd0fb51-9d63-4de7-adc7-78775ca2fbdc",
+	"0f325776-c769-4c41-bf1e-570f0af5dc79",
+	"0e47089f-9598-4d7c-a701-be73399838e3",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Customer Engineer',
+	'CustomerEngineerId',
+	'R7.''responsible person''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c",
+	0,
+	"494bb5b5-ca39-4324-9301-6dfd62223258",
+	"4cd0fb51-9d63-4de7-adc7-78775ca2fbdc",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("0f325776-c769-4c41-bf1e-570f0af5dc79",
+	"0670279a-47e7-4568-b214-4b309597b0ea",
+	"9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c",
+	1,
+	'CustomerEngineerId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c",
+	'../Customer Engineer/Customer Engineer.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("0f325776-c769-4c41-bf1e-570f0af5dc79",
+	"0670279a-47e7-4568-b214-4b309597b0ea",
+	"9e3a0731-09af-4daf-b54e-a1f42de77728",
+	'CustomerEngineerId',
+	'',
+	'',
+	'CustomerEngineerId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"0670279a-47e7-4568-b214-4b309597b0ea");
+INSERT INTO O_OIDA
+	VALUES ("9e3a0731-09af-4daf-b54e-a1f42de77728",
+	"0670279a-47e7-4568-b214-4b309597b0ea",
+	0,
+	'WorkloadId');
+INSERT INTO O_OIDA
+	VALUES ("0f325776-c769-4c41-bf1e-570f0af5dc79",
+	"0670279a-47e7-4568-b214-4b309597b0ea",
+	0,
+	'CustomerEngineerId');
+INSERT INTO O_ID
+	VALUES (1,
+	"0670279a-47e7-4568-b214-4b309597b0ea");
+INSERT INTO O_ID
+	VALUES (2,
+	"0670279a-47e7-4568-b214-4b309597b0ea");
+INSERT INTO PE_PE
+	VALUES ("0670279a-47e7-4568-b214-4b309597b0ea",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

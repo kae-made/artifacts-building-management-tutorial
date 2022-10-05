@@ -1,0 +1,162 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	'Lease Contruct',
+	11,
+	'LC',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_REF
+	VALUES ("2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	0,
+	"e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"f8fa7ca3-e42d-49d3-8179-1b93ae558a98",
+	"8998e9c2-c55b-4d96-aea9-015f7716ca58",
+	"e66b0957-ae56-469a-b472-4c19b0d87472",
+	"63e0c006-8543-47b6-93f2-7748689f8577",
+	"2ea4c647-57c2-4fd0-b6f1-063ac3adce94",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Customer',
+	'CustomerId',
+	'R8');
+INSERT INTO R_RGO_PROXY
+	VALUES ("2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"f8fa7ca3-e42d-49d3-8179-1b93ae558a98",
+	"8998e9c2-c55b-4d96-aea9-015f7716ca58",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	0,
+	"f8fa7ca3-e42d-49d3-8179-1b93ae558a98",
+	"e66b0957-ae56-469a-b472-4c19b0d87472",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("63e0c006-8543-47b6-93f2-7748689f8577",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	1,
+	'CustomerId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("e111ef4a-7f81-4e5d-94f9-f350338af274",
+	"52b4abf1-c366-4165-911d-2e4c9830098f",
+	'../Customer/Customer.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("63e0c006-8543-47b6-93f2-7748689f8577",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"00000000-0000-0000-0000-000000000000",
+	'CustomerId',
+	'',
+	'',
+	'CustomerId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	0,
+	"b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"f8fa7ca3-e42d-49d3-8179-1b93ae558a98",
+	"8998e9c2-c55b-4d96-aea9-015f7716ca58",
+	"fc4cf439-fb0b-4f78-8a12-61ff3eaff490",
+	"30b297de-60d9-4925-a31c-36b11f911fb2",
+	"c9700714-7b68-4004-8413-6befb17adad8",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Room',
+	'RoomId',
+	'R8');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	0,
+	"f8fa7ca3-e42d-49d3-8179-1b93ae558a98",
+	"fc4cf439-fb0b-4f78-8a12-61ff3eaff490",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("30b297de-60d9-4925-a31c-36b11f911fb2",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	1,
+	'RoomId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	'../Room/Room.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("30b297de-60d9-4925-a31c-36b11f911fb2",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"63e0c006-8543-47b6-93f2-7748689f8577",
+	'RoomId',
+	'',
+	'',
+	'RoomId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("8c9ee17e-e987-4542-afd1-f4aff581ad05",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008");
+INSERT INTO O_BATTR
+	VALUES ("8c9ee17e-e987-4542-afd1-f4aff581ad05",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008");
+INSERT INTO O_ATTR
+	VALUES ("8c9ee17e-e987-4542-afd1-f4aff581ad05",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	"30b297de-60d9-4925-a31c-36b11f911fb2",
+	'ContructNumber',
+	'',
+	'',
+	'ContructNumber',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008");
+INSERT INTO O_OIDA
+	VALUES ("63e0c006-8543-47b6-93f2-7748689f8577",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	0,
+	'CustomerId');
+INSERT INTO O_OIDA
+	VALUES ("30b297de-60d9-4925-a31c-36b11f911fb2",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	0,
+	'RoomId');
+INSERT INTO O_ID
+	VALUES (1,
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008");
+INSERT INTO O_OIDA
+	VALUES ("8c9ee17e-e987-4542-afd1-f4aff581ad05",
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	1,
+	'ContructNumber');
+INSERT INTO O_ID
+	VALUES (2,
+	"2cb4b210-2fbb-48bd-9563-c501b3b56008");
+INSERT INTO PE_PE
+	VALUES ("2cb4b210-2fbb-48bd-9563-c501b3b56008",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

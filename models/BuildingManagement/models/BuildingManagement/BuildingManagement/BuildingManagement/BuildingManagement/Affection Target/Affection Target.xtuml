@@ -1,0 +1,139 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("e565b484-7641-4381-bf20-bbead4f86f09",
+	'Affection Target',
+	7,
+	'AT',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_REF
+	VALUES ("e565b484-7641-4381-bf20-bbead4f86f09",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	0,
+	"4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"61beee19-fdd7-43d2-9bbc-b20b5b241c0e",
+	"f993be39-91f4-4e45-8495-fd6b7250fe9c",
+	"2963ffd2-887d-4938-a281-4a70c421a8fa",
+	"667f8cd5-834c-4681-914c-65bc13e88670",
+	"58d37d79-a47c-4afc-9a51-ec601fc5970e",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Measuring Instruments',
+	'MeasuringInstId',
+	'R6');
+INSERT INTO R_RGO_PROXY
+	VALUES ("e565b484-7641-4381-bf20-bbead4f86f09",
+	"61beee19-fdd7-43d2-9bbc-b20b5b241c0e",
+	"f993be39-91f4-4e45-8495-fd6b7250fe9c",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	0,
+	"61beee19-fdd7-43d2-9bbc-b20b5b241c0e",
+	"2963ffd2-887d-4938-a281-4a70c421a8fa",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("667f8cd5-834c-4681-914c-65bc13e88670",
+	"e565b484-7641-4381-bf20-bbead4f86f09",
+	"4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	1,
+	'MeasuringInstId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("4e3a0714-1460-40e7-8dcf-dad53b00b36e",
+	"0e66c7d4-e7c1-48fd-b27d-5b6afca398d8",
+	'../Measuring Instruments/Measuring Instruments.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("667f8cd5-834c-4681-914c-65bc13e88670",
+	"e565b484-7641-4381-bf20-bbead4f86f09",
+	"00000000-0000-0000-0000-000000000000",
+	'MeasuringInstId',
+	'',
+	'',
+	'MeasuringInstId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("e565b484-7641-4381-bf20-bbead4f86f09",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	0,
+	"31731043-2dfa-4499-926f-ee3852942e8d",
+	"61beee19-fdd7-43d2-9bbc-b20b5b241c0e",
+	"f993be39-91f4-4e45-8495-fd6b7250fe9c",
+	"a0689df8-bdd6-4b63-ac83-02601bdd4b4b",
+	"6768bae8-62c6-4f84-960f-eb1729374f52",
+	"4ce8e0db-e330-4413-94a5-329546bd66ce",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Air Conditioner',
+	'AirConId',
+	'R6.''affect''');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("31731043-2dfa-4499-926f-ee3852942e8d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	0,
+	"61beee19-fdd7-43d2-9bbc-b20b5b241c0e",
+	"a0689df8-bdd6-4b63-ac83-02601bdd4b4b",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("6768bae8-62c6-4f84-960f-eb1729374f52",
+	"e565b484-7641-4381-bf20-bbead4f86f09",
+	"31731043-2dfa-4499-926f-ee3852942e8d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	1,
+	'AirConId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("31731043-2dfa-4499-926f-ee3852942e8d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	'../Air Conditioner/Air Conditioner.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("6768bae8-62c6-4f84-960f-eb1729374f52",
+	"e565b484-7641-4381-bf20-bbead4f86f09",
+	"667f8cd5-834c-4681-914c-65bc13e88670",
+	'AirConId',
+	'',
+	'',
+	'AirConId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"e565b484-7641-4381-bf20-bbead4f86f09");
+INSERT INTO O_OIDA
+	VALUES ("667f8cd5-834c-4681-914c-65bc13e88670",
+	"e565b484-7641-4381-bf20-bbead4f86f09",
+	0,
+	'MeasuringInstId');
+INSERT INTO O_OIDA
+	VALUES ("6768bae8-62c6-4f84-960f-eb1729374f52",
+	"e565b484-7641-4381-bf20-bbead4f86f09",
+	0,
+	'AirConId');
+INSERT INTO O_ID
+	VALUES (1,
+	"e565b484-7641-4381-bf20-bbead4f86f09");
+INSERT INTO O_ID
+	VALUES (2,
+	"e565b484-7641-4381-bf20-bbead4f86f09");
+INSERT INTO PE_PE
+	VALUES ("e565b484-7641-4381-bf20-bbead4f86f09",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

@@ -1,0 +1,207 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("a32d3ad3-4db4-403e-bfae-fe277009d175",
+	'Air Conditioner',
+	5,
+	'AC',
+	'@iotpnp',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TFR
+	VALUES ("70ddb78d-fb67-40ea-aa82-974ffcd3784d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	'Execute',
+	'',
+	"ba5eda7a-def5-0000-0000-000000000000",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	1);
+INSERT INTO O_TPARM
+	VALUES ("e1fb733c-da9c-455d-aa25-400d5e8fc086",
+	"70ddb78d-fb67-40ea-aa82-974ffcd3784d",
+	'command',
+	"ba5eda7a-def5-0000-0000-000000000004",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("31731043-2dfa-4499-926f-ee3852942e8d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_BATTR
+	VALUES ("31731043-2dfa-4499-926f-ee3852942e8d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_ATTR
+	VALUES ("31731043-2dfa-4499-926f-ee3852942e8d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"00000000-0000-0000-0000-000000000000",
+	'AirConId',
+	'@iotpnp(deviceid,exclude)',
+	'',
+	'AirConId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_REF
+	VALUES ("a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	0,
+	"b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"db59c71f-9c24-4893-872f-d28cdeeaa5b0",
+	"ec02966f-3c50-499a-ba53-6ebda9b6dcb0",
+	"735743ff-ef6b-45d1-959b-f3a66db6c22f",
+	"203c96ef-a483-4d2b-8e62-093818768484",
+	"f19bb9ed-5874-494b-8f44-1f21e20d14bf",
+	"00000000-0000-0000-0000-000000000000",
+	0,
+	'',
+	'Room',
+	'RoomId',
+	'R4');
+INSERT INTO R_RGO_PROXY
+	VALUES ("a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"db59c71f-9c24-4893-872f-d28cdeeaa5b0",
+	"ec02966f-3c50-499a-ba53-6ebda9b6dcb0",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RTIDA_PROXY
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	0,
+	"db59c71f-9c24-4893-872f-d28cdeeaa5b0",
+	"735743ff-ef6b-45d1-959b-f3a66db6c22f",
+	'../BuildingManagement.xtuml');
+INSERT INTO O_RATTR
+	VALUES ("203c96ef-a483-4d2b-8e62-093818768484",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	1,
+	'RoomId');
+INSERT INTO O_BATTR_PROXY
+	VALUES ("b4b4cc6d-2293-4100-951c-86d75e256b4a",
+	"aef649fe-b050-4a60-accc-2766afe55c37",
+	'../Room/Room.xtuml');
+INSERT INTO O_ATTR
+	VALUES ("203c96ef-a483-4d2b-8e62-093818768484",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"31731043-2dfa-4499-926f-ee3852942e8d",
+	'TargetRoomId',
+	'@iotpnp(exclude)',
+	'Target',
+	'RoomId',
+	1,
+	"ba5eda7a-def5-0000-0000-000000000007",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("920a136e-1d29-453c-9d72-6d84d8d04a27",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_BATTR
+	VALUES ("920a136e-1d29-453c-9d72-6d84d8d04a27",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_ATTR
+	VALUES ("920a136e-1d29-453c-9d72-6d84d8d04a27",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"203c96ef-a483-4d2b-8e62-093818768484",
+	'ModelName',
+	'@iotpnp(exclude)',
+	'',
+	'ModelName',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("44b78eb6-c01a-4045-85b2-d57c67d93f54",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_BATTR
+	VALUES ("44b78eb6-c01a-4045-85b2-d57c67d93f54",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_ATTR
+	VALUES ("44b78eb6-c01a-4045-85b2-d57c67d93f54",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"920a136e-1d29-453c-9d72-6d84d8d04a27",
+	'PowerState',
+	'@iotpnp(telemetry)',
+	'',
+	'PowerState',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000001",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("24f44017-5140-4992-9ede-b210d39fd908",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_BATTR
+	VALUES ("24f44017-5140-4992-9ede-b210d39fd908",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_ATTR
+	VALUES ("24f44017-5140-4992-9ede-b210d39fd908",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"44b78eb6-c01a-4045-85b2-d57c67d93f54",
+	'PowerWatts',
+	'@iotpnp(telemetry)',
+	'',
+	'PowerWatts',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000003",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("d21c6958-c3ee-4c5e-8475-f6820fe6d6e8",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_BATTR
+	VALUES ("d21c6958-c3ee-4c5e-8475-f6820fe6d6e8",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_ATTR
+	VALUES ("d21c6958-c3ee-4c5e-8475-f6820fe6d6e8",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	"24f44017-5140-4992-9ede-b210d39fd908",
+	'CurrentState',
+	'@iotpnp(telemetry)',
+	'',
+	'CurrentState',
+	0,
+	"e74233b5-3ab2-44db-81da-a44c755e7a61",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("e74233b5-3ab2-44db-81da-a44c755e7a61",
+	"00000000-0000-0000-0000-000000000000",
+	'EquipmentsState',
+	'',
+	'',
+	'../BuildingManagement.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_OIDA
+	VALUES ("31731043-2dfa-4499-926f-ee3852942e8d",
+	"a32d3ad3-4db4-403e-bfae-fe277009d175",
+	0,
+	'AirConId');
+INSERT INTO O_ID
+	VALUES (1,
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO O_ID
+	VALUES (2,
+	"a32d3ad3-4db4-403e-bfae-fe277009d175");
+INSERT INTO PE_PE
+	VALUES ("a32d3ad3-4db4-403e-bfae-fe277009d175",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

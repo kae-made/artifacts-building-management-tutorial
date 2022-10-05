@@ -1,0 +1,73 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("876929b3-4925-4cb2-9fd9-96eb483e620c",
+	'Customer Engineer',
+	8,
+	'CE',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c");
+INSERT INTO O_BATTR
+	VALUES ("9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c");
+INSERT INTO O_ATTR
+	VALUES ("9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c",
+	"00000000-0000-0000-0000-000000000000",
+	'CustomerEngineerId',
+	'',
+	'',
+	'CustomerEngineerId',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000005",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("e5b85d44-9679-4541-90a9-d2fd238b356a",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c");
+INSERT INTO O_BATTR
+	VALUES ("e5b85d44-9679-4541-90a9-d2fd238b356a",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c");
+INSERT INTO O_ATTR
+	VALUES ("e5b85d44-9679-4541-90a9-d2fd238b356a",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c",
+	"9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	'Name',
+	'',
+	'',
+	'Name',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000004",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"876929b3-4925-4cb2-9fd9-96eb483e620c");
+INSERT INTO O_OIDA
+	VALUES ("9d1ff6aa-14cf-4e12-971e-5c11e18d0bdd",
+	"876929b3-4925-4cb2-9fd9-96eb483e620c",
+	0,
+	'CustomerEngineerId');
+INSERT INTO O_ID
+	VALUES (1,
+	"876929b3-4925-4cb2-9fd9-96eb483e620c");
+INSERT INTO O_ID
+	VALUES (2,
+	"876929b3-4925-4cb2-9fd9-96eb483e620c");
+INSERT INTO PE_PE
+	VALUES ("876929b3-4925-4cb2-9fd9-96eb483e620c",
+	1,
+	"6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("6cc27845-f1b4-44bc-8cdc-7ea41dc8fac9",
+	"00000000-0000-0000-0000-000000000000",
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	'',
+	0,
+	'../BuildingManagement.xtuml');

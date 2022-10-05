@@ -1,0 +1,56 @@
+-- BP 7.1.6 content: SystemModel syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO S_SYS
+	VALUES ("d7a6f925-def2-4a07-84a2-d00e99939420",
+	'BuildingManagement',
+	1);
+INSERT INTO GD_MD
+	VALUES ("86a04c3c-8c6e-475d-8afe-7cecae46f761",
+	108,
+	"d7a6f925-def2-4a07-84a2-d00e99939420",
+	92,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	200,
+	150,
+	0,
+	'',
+	'BuildingManagement');
+INSERT INTO GD_GE
+	VALUES ("50eb7edf-98a6-4660-b44b-4ce4fee2b2ed",
+	"86a04c3c-8c6e-475d-8afe-7cecae46f761",
+	"f4f6e7f3-c888-4dc8-863d-d64a86032cfe",
+	108,
+	0,
+	'BuildingManagement::BuildingManagement');
+INSERT INTO GD_SHP
+	VALUES ("50eb7edf-98a6-4660-b44b-4ce4fee2b2ed");
+INSERT INTO GD_NCS
+	VALUES ("50eb7edf-98a6-4660-b44b-4ce4fee2b2ed");
+INSERT INTO DIM_ND
+	VALUES (200.000000,
+	150.000000,
+	"50eb7edf-98a6-4660-b44b-4ce4fee2b2ed");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"50eb7edf-98a6-4660-b44b-4ce4fee2b2ed",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("50eb7edf-98a6-4660-b44b-4ce4fee2b2ed",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("86a04c3c-8c6e-475d-8afe-7cecae46f761",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
